@@ -11,7 +11,6 @@ sleep 2
 chsh -s /bin/zsh
 echo "變更為zsh"
 sleep 5
-git clone https://github.com/Dr34m3rXu/PrivateRC
 echo "下載zsh&vim設定檔"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 echo "安裝powerlevel9k"
