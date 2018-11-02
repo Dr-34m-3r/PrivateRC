@@ -11,6 +11,9 @@ sleep 2
 chsh -s /bin/zsh
 echo "變更為zsh"
 sleep 5
+cp -r /home/$USER/.oh-my-zsh/ /root/.oh-my-zsh/
+echo "複製oh-my-zsh資料夾"
+sleep 2
 echo "下載zsh&vim設定檔"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 echo "安裝powerlevel9k"
