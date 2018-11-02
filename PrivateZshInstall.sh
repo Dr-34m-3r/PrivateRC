@@ -28,3 +28,11 @@ cd nerd-fonts
 sleep 2
 ./install.sh
 echo "安裝nerd字體"
+sleep 2
+cd /home/$USER/PrivateRC
+sudo mv vimrc /root/.vimrc
+sudo mv zprofile /root/.zprofile
+sudo mv rootzshrc /root/.zshrc
+sleep 5
+echo "安裝root設定檔"
+exit
