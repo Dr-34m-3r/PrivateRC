@@ -46,6 +46,7 @@ sudo su
 cd
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 sleep 2
+sudo su
 chsh -s /bin/zsh
 echo "變更為zsh"
 exit
