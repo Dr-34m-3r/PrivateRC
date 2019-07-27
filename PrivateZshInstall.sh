@@ -35,7 +35,17 @@ sleep 2
 cd /home/$USER/
 sudo cp .vimrc /root/.vimrc
 sudo cp .zprofile /root/.zprofile
-sudo cp .zshrc /root/.zshrc
+sleep 2
+cd /home/$USER/PrivateRC
+sudo mv rootzshrc /root/.zshrc
 sleep 5
 echo "安裝root設定檔"
+sleep 5
+echo "安裝root_powerlevel9k"
+sudo su
+cd
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+sleep 2
+chsh -s /bin/zsh
+echo "變更為zsh"
 exit
