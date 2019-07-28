@@ -53,6 +53,8 @@ sleep 5
 echo "安裝powerline字體"
 https://github.com/powerline/fonts
 sleep 2
+cd /home/$USER/fonts/
+sleep 2
 ./install.sh
 sleep 2
 echo "請切換terminal字體為Meslo LG S for Powerline"
